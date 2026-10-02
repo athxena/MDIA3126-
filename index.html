@@ -12,6 +12,8 @@
     <span class="c-pill-secondary">Secondary</span>
     <h2>Disabled Button</h2>
     <span class="c-pill-disabled">Disabled</span>
+    <h2>Button #4!</h2>
+    <span class="c-pill-colour-changing">Colour changing</span>
     <style>
         body {
             text-align: center;
@@ -25,7 +27,7 @@
         .c-pill {
             display: inline-block;
             padding: 0.25em 0.75em;
-            font-family: 'Arial', sans-serif;
+            font-family:'Courier New', Courier, monospace
             font-size: 2rem;
             font-weight: 600;
             line-height: 1;
@@ -55,6 +57,20 @@
             background-color: #bababa;
             border-radius: 10rem;
         }
+        .c-pill-colour-changing {
+            display: inline-block;
+            padding: 1em 1.25em;
+            font-family:Georgia, 'Times New Roman', Times, serif
+            font-size: 15rem;
+            font-weight: 600;
+            line-height: 1;
+            color: #fff;
+            background-color: #fcceee;
+            border-radius: 10rem;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .c-pill-colour-changing:hover {
+            background-color: #a5c2fb;
     </style>
 </body>
 </html>
